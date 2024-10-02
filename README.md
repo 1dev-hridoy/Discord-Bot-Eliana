@@ -1,6 +1,6 @@
 <img src="https://i.ibb.co.com/XSQrjc5/banner.jpg" alt="Eliana Bot Banner">
 <h1 align="center"><img src="https://i.ibb.co.com/ZfpwYb7/logo.png" alt="Nazuko" style="width: 35px; height: 35px;">
-This is some text accompanying the image.</h1>
+ ✨ Eliana Discord Bot</h1>
 <p align="center">
 <img src="https://img.shields.io/badge/Node.js%20Support-20.x-blue" alt="Node.js Support">
 <img src="https://img.shields.io/badge/size-20.7%20MB-green" alt="Size">
