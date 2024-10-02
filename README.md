@@ -1,5 +1,5 @@
-<img src="https://github.com/1dev-hridoy/dev-hridoy/blob/588292488b0c68b4485531b8efdbcd8703cea463/assets/banner.jpg?raw=true" alt="Eliana Bot Banner">
-<h1 align="center"><img src="https://github.com/1dev-hridoy/dev-hridoy/blob/main/assets/logo.png?raw=true" alt="Nazuko" style="width: 35px; height: 35px;">
+<img src="https://i.ibb.co.com/XSQrjc5/banner.jpg" alt="Eliana Bot Banner">
+<h1 align="center"><img src="https://i.ibb.co.com/ZfpwYb7/logo.png" alt="Nazuko" style="width: 35px; height: 35px;">
 This is some text accompanying the image.</h1>
 <p align="center">
 <img src="https://img.shields.io/badge/Node.js%20Support-20.x-blue" alt="Node.js Support">
