@@ -29,5 +29,54 @@
 
 
 ## 🔥 **Tutorial-firebase**
-- soon
+- <p align="center">
+Go to <a href="https://www.w3schools.com">Firebase</a>
+</p>
 
+<img src="https://i.ibb.co.com/kK75DZC/getstart.png">
+<h3>Click Get started</h3>
+
+<img src="https://i.ibb.co.com/m6WsMqz/getstart-with-project.png">
+<h3>Then Get started with a Firebase project</h3>
+
+<img src="https://i.ibb.co.com/Njp9hhj/enter-bot-name.png">
+<h3>Now Enter Your Bot Name And Click The CheckBox And Continue</h3>
+
+<img src="https://i.ibb.co.com/cNqmmtB/agin-con.png">
+<h3>Again Continue</h3>
+
+<img src="https://i.ibb.co.com/9VfM8TH/create-project.png">
+<h3>Click The CheckBox And Create Project</h3>
+
+<img src="https://i.ibb.co.com/yfMtVJF/wait-and-con.png">
+<h3>Wait Some Moment And Continue </h3>
+
+<img src="https://i.ibb.co.com/nj2NSVx/click-web.png">
+<h3>Now Click On Web</h3>
+
+<img src="https://i.ibb.co.com/HCKH08f/register-app.png">
+<h3>Now Enter Your Bot Name Again And Click Register App</h3>
+
+<img src="https://i.ibb.co.com/72tjppp/20241003-014210-11zon.jpg">
+<h3>Once You Click Register App You Will Find Above Photo Screenshot But For Database URL Click Continue to console</h3>
+
+<img src="https://i.ibb.co.com/z40DFjN/buildandrealtimedb.png">
+<h3>Now Click On Build And Select Real Time Database </h3>
+
+<img src="https://i.ibb.co.com/QcBcqqt/create-db.png">
+<h3>Then create database then continue and then enable </h3>
+
+<img src="https://i.ibb.co.com/375RNtQ/rules.png">
+<h3>Now Go To Rules Tab</h3>
+
+<img src="https://camo.githubusercontent.com/de407bccdb7775cee5f39b7f2d523ce3aad69557a14dfa01ffec2c55c1facd0e/68747470733a2f2f692e6962622e636f2e636f6d2f505468353578322f747275652e706e67">
+<h3>Make The Both Rules Ttrue And Publish </h3>
+	<pre><code>{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}	</code></pre>
+
+<img src="https://i.ibb.co.com/svz3nmH/dburl.png">
+<h3>Now Go Back To Data Tab And Click On Copy URL And Add On Database URL In Config File</h3>
