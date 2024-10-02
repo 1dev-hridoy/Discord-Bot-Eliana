@@ -12,7 +12,7 @@
 - [📝 **Note**](#-note)
 - [🚧 **Requirement**](#-requirement)
 - [📝 **Tutorial**](#-tutorial)
-- [🔥 **Tutorial**](#-tutorial-firebase)
+- [🔥 **Tutorial Firebase**](#-tutorial-firebase)
 
 ## 📝 **Note**
 - ElianaBot is a free, open-source project built to enhance the Discord experience for communities worldwide. Our goal is to provide a versatile, customizable bot that meets the diverse needs of server owners and their members.
@@ -23,6 +23,9 @@
 
 ## 🚧 **Requirement**
 - Knowledge of **programming**, javascript, nodejs, firebase
+
+## 🔥 **Tutorial**
+- Soon
 
 
 ## 🔥 **Tutorial-firebase**
