@@ -1,0 +1,20 @@
+{
+    "roles": {
+      "customRole": {
+        "price": 100
+      }
+    },
+    "badges": {
+      "vip": {
+        "price": 50,
+        "name": "VIP",
+        "imageUrl": "https://cdn-icons-png.flaticon.com/512/9572/9572882.png"
+      },
+      "gold": {
+        "price": 30,
+        "name": "Gold",
+        "imageUrl": "https://cdn-icons-png.flaticon.com/512/8342/8342346.png"
+      }
+    }
+  }
+  

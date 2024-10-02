@@ -1,0 +1,16 @@
+{
+  "token": "ADD_BOT_TOKEN",
+  "prefix": "!",
+  "firebase": {
+    "apiKey": "ADD_FIREBASE_API_KEY",
+    "authDomain": "ADD_FIREBASE_AUTH_DOMAIN",
+    "databaseURL": "ADD_FIREBASE_DV_URL",
+    "projectId": "ADD_FIREBASE_PROJECT_ID"
+  },
+  "admins": [
+    "ADMIN_UID"
+  ],
+  "owners": [
+    "OWNER_UID"
+  ]
+}

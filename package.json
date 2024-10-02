@@ -1,0 +1,27 @@
+{
+  "name": "discord-eliana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "@discordjs/voice": "^0.17.0",
+    "@firebase/app": "^0.10.11",
+    "axios": "^1.7.7",
+    "canvas": "^2.11.2",
+    "discord.js": "^14.16.3",
+    "express": "^4.21.0",
+    "firebase": "^10.13.2",
+    "firebase-admin": "^12.5.0",
+    "fs-extra": "^11.2.0",
+    "gtts": "^0.2.1",
+    "node-fetch": "^2.7.0",
+    "sharp": "^0.33.5"
+  }
+}
