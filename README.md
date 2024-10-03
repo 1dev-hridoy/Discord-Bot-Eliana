@@ -75,7 +75,7 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
 <h3>Now Go To Rules Tab</h3>
 
 <img src="https://camo.githubusercontent.com/de407bccdb7775cee5f39b7f2d523ce3aad69557a14dfa01ffec2c55c1facd0e/68747470733a2f2f692e6962622e636f2e636f6d2f505468353578322f747275652e706e67">
-<h3>Make The Both Rules Ttrue And Publish </h3>
+<h3>Make The Both Rules True And Publish </h3>
 	<pre><code>{
   "rules": {
     ".read": true,
@@ -91,7 +91,7 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
 <h3>Go To <a href="https://discord.com/developers/applications">Discord Developer</a> Section And Then Click New Application</h3>
 
 <img src="https://i.ibb.co.com/BLyTRxL/give-bot-name.png">
-<h3>Enter Your Bot Name And Click Create. Now Got To Bot Section...</h3>
+<h3>Enter Your Bot Name And Click Create. Now Go To Bot Section...</h3>
 
 <img src="https://i.ibb.co.com/KGQktsG/resettoken.png">
 <h3>Form The Bot Section Click On Reset Token Then Click Yes Do Form Popup And Enter Your Discord Account Password</h3>
