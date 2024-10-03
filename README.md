@@ -14,7 +14,7 @@
 - [📝 **Tutorial**](#-tutorial)
 - [🔥 **Tutorial Firebase**](#-tutorial-firebase)
 - [🤖 **Bot Token And Setting**](#-bot)
-- [🖥️ **Dashboard**](#-Command-Example)
+- [🖥️ **Dashboard**](#-dashboard)
 - [🧩 **Command Example**](#-command-example)
 
 
