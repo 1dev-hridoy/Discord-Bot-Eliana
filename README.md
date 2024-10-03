@@ -13,6 +13,8 @@
 - [🚧 **Requirement**](#-requirement)
 - [📝 **Tutorial**](#-tutorial)
 - [🔥 **Tutorial Firebase**](#-tutorial-firebase)
+- [🤖 **Bot Token And Setting**](#-bot)
+- [ 🖥️ **Dashboard**](#-dashboard)
 
 ## 📝 **Note**
 - ElianaBot is a free, open-source project built to enhance the Discord experience for communities worldwide. Our goal is to provide a versatile, customizable bot that meets the diverse needs of server owners and their members.
@@ -80,3 +82,42 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
 
 <img src="https://i.ibb.co.com/svz3nmH/dburl.png">
 <h3>Now Go Back To Data Tab And Click On Copy URL And Add On Database URL In Config File</h3>
+
+## 🔥 **Bot**
+<img src="https://i.ibb.co.com/0hbLnz1/developer-section.png">
+<h3>Go To <a href="https://discord.com/developers/applications">Discord Developer</a> Section And Then Click New Application</h3>
+
+<img src="https://i.ibb.co.com/BLyTRxL/give-bot-name.png">
+<h3>Enter Your Bot Name And Click Create. Now Got To Bot Section...</h3>
+
+<img src="https://i.ibb.co.com/KGQktsG/resettoken.png">
+<h3>Form The Bot Section Click On Reset Token Then Click Yes Do Form Popup And Enter Your Discord Account Password</h3>
+
+<img src="https://i.ibb.co.com/h7mpp9k/Screenshot-2024-10-03-080633.pngh7mpp9k/Screenshot-2024-10-03-080633.png">
+<h3>And You Will Get A Bot Token Copy And Paste It On config.json File And Then Turn On 3 Switch Form Privileged Gateway Intents
+ Section</h3>
+
+<h4>Full config.json</h4>
+<pre><code>{
+  "token": "ADD_BOT_TOKEN",
+  "prefix": "!",
+  "firebase": {
+    "apiKey": "ADD_FIREBASE_API_KEY",
+    "authDomain": "ADD_FIREBASE_AUTH_DOMAIN",
+    "databaseURL": "ADD_FIREBASE_DV_URL",
+    "projectId": "ADD_FIREBASE_PROJECT_ID"
+  },
+  "admins": [
+    "ADMIN_UID"
+  ],
+  "owners": [
+    "OWNER_UID"
+  ]
+}</code></pre>
+
+## 🖥️ **dashboard**
+<p align="center">
+<a href="https://i.ibb.co.com/31kcvWB/dashboard.png" target="_blank">Screenshot</a> *Dashboard Code Not Included This Repo.
+</p>
+
+
