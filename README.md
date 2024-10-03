@@ -124,8 +124,8 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
 
 
 ## 🔥 **Command-Example**
-- <h2>Here's Some Command Example</h2>
-<p align="center">
+- <h2>Here's Some Command Example</h2><br>
+<p align="center">Replay With Message
 <pre><code>module.exports = {
   name: 'ping',
   description: 'Replies with Pong!',
@@ -133,5 +133,132 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
     message.reply('Pong!');
   },
 };</code></pre>
-<img src="![image](https://github.com/user-attachments/assets/8327bc13-1f79-49f7-80b7-c1e37e75c51d)
-">
+<img src="https://github.com/user-attachments/assets/b8e46078-6863-4dc5-968e-a17d8b07aa07"></p>
+<br>
+
+<p align="center">Admin Only Command
+<pre><codeconst { admins } = require('../config.json'); // Importing the admin list
+
+module.exports = {
+  name: 'hello',
+  description: 'Replies with Hello, but only admins can use it.',
+  execute(message) {
+    // Check if the user is an admin
+    if (!admins.includes(message.author.id)) {
+      return message.reply("❌ You do not have permission to use this command.");
+    }
+// If the user is an admin, reply with "Hello!"
+    message.reply('Hello!');
+  },
+};
+</code></pre>
+<img src="https://github.com/user-attachments/assets/65958964-2b90-4670-bd74-3d89c0becb04"></p>
+<br>
+
+
+<p align="center">Add Balance To User Account 
+<pre><code>const { ref, set, get } = require('firebase/database'); // Import Firebase database functions
+module.exports = {
+  name: 'money', // Command name
+  description: 'Add 10 coins to your account.', // Description of the command
+  async execute(message, args, client, db) {
+    const userId = message.author.id; // Get user ID of the person using the command
+    const guildId = message.guild.id; // Get the ID of the current server
+    const addAmount = 10; // Fixed amount of 10 coins to add
+    try {
+      const userEconomyRef = ref(db, `economy/${guildId}/${userId}`); // Reference to the user's economy data in the database
+      // Check if the user has an existing economy record
+      const economySnapshot = await get(userEconomyRef); 
+      if (!economySnapshot.exists()) { // If no record exists, initialize it with a balance of 0
+        await set(userEconomyRef, { balance: 0 });
+      }
+      const userEconomyData = (await get(userEconomyRef)).val(); // Get the user's current balance
+      // Update the user's balance by adding 10 coins
+      await set(userEconomyRef, { balance: userEconomyData.balance + addAmount });
+      // Reply to the user with their new balance
+      message.reply(`💰 You received 10 coins! Your new balance is ${userEconomyData.balance + addAmount} coins.`);
+    } catch (error) {
+      console.error("Error adding money:", error); // Log any errors that occur
+      message.reply("There was an error trying to add money."); // Inform the user if an error occurs
+    }
+  },
+};
+</code></pre>
+<img src="https://github.com/user-attachments/assets/1ec6b11c-f1f4-4997-aef7-fe2ef3770545"></p>
+<br>
+
+<p align="center">Spend Balance Form User Account 
+<pre><code>const { ref, get, set } = require('firebase/database'); // Import Firebase database functions
+
+module.exports = {
+  name: 'spend', // Command name
+  description: 'Spend coins from your account.', // Description of the command
+  async execute(message, args, client, db) {
+    const userId = message.author.id; // Get the ID of the user who triggered the command
+    const guildId = message.guild.id; // Get the ID of the current guild (server)
+    const spendAmount = 50; // Amount to be spent (deducted)
+    try {
+      const userEconomyRef = ref(db, `economy/${guildId}/${userId}`); // Reference to the user's economy data in the database
+      const snapshot = await get(userEconomyRef); // Get the user's current balance
+      if (snapshot.exists()) {
+        const userData = snapshot.val();
+        const currentBalance = Number(userData.balance); // Convert balance to a number
+        if (isNaN(currentBalance)) { // Check if balance is valid
+          return message.reply("❌ Your balance is invalid. Please contact an administrator.");
+        }
+        if (currentBalance < spendAmount) { // Check if the user has enough coins
+          return message.reply(`❌ You don't have enough coins. You need at least ${spendAmount} coins.`);
+        }
+        // Deduct the amount from the user's balance
+        const newBalance = currentBalance - spendAmount;
+        // Update the user's balance in the database
+        await set(userEconomyRef, { ...userData, balance: newBalance });
+        // Notify the user about the successful transaction
+        message.reply(`✅ You spent ${spendAmount} coins. Your new balance is ${newBalance} coins.`);
+      } else {
+        message.reply("❌ You do not have a balance set yet.");
+      }
+    } catch (error) {
+      console.error("Error processing spend command:", error); // Log any errors that occur
+      message.reply("⚡️ An error occurred while processing your request. Please try again later.");
+    }
+  },
+};
+</code></pre>
+<img src="https://github.com/user-attachments/assets/a6032ac1-171a-43de-b586-2c931197902e"></p>
+<br>
+
+
+<p align="center">  <h2>📬 How to reach me:</h2>
+
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      <th>Facebook</th>
+      <th>Telegram</th>
+      <th>Twitter</th>
+      <th>YouTube</th>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="facebook-qr-code.png" alt="Facebook QR" width="150"><br>
+        <a href="https://facebook.com/NTKhang03">NTKhang03</a>
+      </td>
+      <td align="center">
+        <img src="telegram-qr-code.png" alt="Telegram QR" width="150"><br>
+        <a href="https://telegram.me/NTKhang03">NTKhang03</a>
+      </td>
+      <td align="center">
+        <img src="twitter-qr-code.png" alt="Twitter QR" width="150"><br>
+        <a href="https://twitter.com/NTKhang03">NTKhang03</a>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/f9dedbbb-606c-4ab5-b67b-73ab2f640ebb" alt="YouTube QR" width="150"><br>
+        <a href="https://www.youtube.com/@hridoy-code>Hridoy Code</a>
+      </td>
+    </tr>
+  </table>
+
+  <p>Email: <a href="mailto:nthanhkhang2003@gmail.com">nthanhkhang2003@gmail.com</a></p></p>
+![Untitled 1]()
+
+  
