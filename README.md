@@ -138,7 +138,7 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
 <br>
 
 <p align="center">Admin Only Command
-<pre><codeconst { admins } = require('../config.json'); // Importing the admin list
+<pre><code>const { admins } = require('../config.json'); // Importing the admin list
 
 module.exports = {
   name: 'hello',
