@@ -16,6 +16,7 @@
 - [🤖 **Bot Token And Setting**](#-bot)
 - [🖥️ **Dashboard**](#-dashboard)
 - [🧩 **Command Example**](#-command-example)
+- [📩 **Contact**](#-contact)
 
 
 ## 📝 **Note**
@@ -228,37 +229,38 @@ module.exports = {
 <img src="https://github.com/user-attachments/assets/a6032ac1-171a-43de-b586-2c931197902e"></p>
 <br>
 
-
+## 📩 **Contact**
 <p align="center">  <h2>📬 How to reach me:</h2>
 
   <table border="1" cellpadding="10" cellspacing="0">
     <tr>
-      <th>Facebook</th>
+      <th>Discord</th>
       <th>Telegram</th>
-      <th>Twitter</th>
+      <th>Instagram</th>
       <th>YouTube</th>
     </tr>
     <tr>
       <td align="center">
-        <img src="facebook-qr-code.png" alt="Facebook QR" width="150"><br>
-        <a href="https://facebook.com/NTKhang03">NTKhang03</a>
+        <img src="https://github.com/user-attachments/assets/6b381b30-861d-4a3c-859a-367da4956347" alt="Facebook QR" width="150"><br>
+        <a href="https://discord.gg/yfBx5GU9Xr">Eliana Support Server</a>
       </td>
       <td align="center">
-        <img src="telegram-qr-code.png" alt="Telegram QR" width="150"><br>
-        <a href="https://telegram.me/NTKhang03">NTKhang03</a>
+        <img src="https://github.com/user-attachments/assets/0bd6fcf3-332b-400b-8edf-0aa613c2d7bc" alt="Telegram QR" width="150"><br>
+        <a href="https://t.me/BD_NOOBRA">BD_NOOBRA</a>
       </td>
       <td align="center">
-        <img src="twitter-qr-code.png" alt="Twitter QR" width="150"><br>
-        <a href="https://twitter.com/NTKhang03">NTKhang03</a>
+        <img src="https://github.com/user-attachments/assets/727d205c-3f31-494b-ba2e-a594122d2b20" alt="Twitter QR" width="150"><br>
+        <a href="https://www.instagram.com/hridoycode/">HridoyCode</a>
       </td>
       <td align="center">
         <img src="https://github.com/user-attachments/assets/f9dedbbb-606c-4ab5-b67b-73ab2f640ebb" alt="YouTube QR" width="150"><br>
-        <a href="https://www.youtube.com/@hridoy-code>Hridoy Code</a>
+        <a href="https://www.youtube.com/@hridoy-code">Hridoy Code</a>
       </td>
     </tr>
   </table>
 
-  <p>Email: <a href="mailto:nthanhkhang2003@gmail.com">nthanhkhang2003@gmail.com</a></p></p>
-![Untitled 1]()
+  <h3>Email: <a href="mailto:dev.hridoy2002@gmail.com">dev.hridoy2002@gmail.com</a></h3></p>
+
+
 
   
