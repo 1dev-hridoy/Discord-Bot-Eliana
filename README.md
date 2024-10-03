@@ -15,6 +15,7 @@
 - [🔥 **Tutorial Firebase**](#-tutorial-firebase)
 - [🤖 **Bot Token And Setting**](#-bot)
 - [ 🖥️ **Dashboard**](#-dashboard)
+- [ 🧩 **Command Example**](#-cmd-example)
 
 ## 📝 **Note**
 - ElianaBot is a free, open-source project built to enhance the Discord experience for communities worldwide. Our goal is to provide a versatile, customizable bot that meets the diverse needs of server owners and their members.
@@ -115,7 +116,7 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
   ]
 }</code></pre>
 
-## 🖥️ **dashboard**
+## 🖥️ **Dashboard**
 <p align="center">
 <a href="https://i.ibb.co.com/31kcvWB/dashboard.png" target="_blank">Screenshot</a> *Dashboard Code Not Included This Repo.
 </p>
