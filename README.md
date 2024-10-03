@@ -118,7 +118,8 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
 
 ## 🖥️ **Dashboard**
 <p align="center">
-<a href="https://i.ibb.co.com/31kcvWB/dashboard.png" target="_blank">Screenshot</a> *Dashboard Code Not Included This Repo.
+<a href="https://i.ibb.co.com/31kcvWB/dashboard.png" target="_blank">Screenshot</a> *Dashboard Code Not Included In This Repo.
 </p>
+
 
 
