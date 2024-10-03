@@ -1,6 +1,6 @@
 <img src="https://i.ibb.co.com/XSQrjc5/banner.jpg" alt="Eliana Bot Banner">
 <h1 align="center"><img src="https://i.ibb.co.com/ZfpwYb7/logo.png" alt="Nazuko" style="width: 35px; height: 35px;">
- ✨ Eliana Discord Bot</h1>
+ ✨ Eliana Discord Bot</h1>
 <p align="center">
 <img src="https://img.shields.io/badge/Node.js%20Support-20.x-blue" alt="Node.js Support">
 <img src="https://img.shields.io/badge/size-20.7%20MB-green" alt="Size">
@@ -14,8 +14,9 @@
 - [📝 **Tutorial**](#-tutorial)
 - [🔥 **Tutorial Firebase**](#-tutorial-firebase)
 - [🤖 **Bot Token And Setting**](#-bot)
-- [ 🖥️ **Dashboard**](#-dashboard)
-- [ 🧩 **Command Example**](#-cmd-example)
+- [🖥️ **Dashboard**](#-Command-Example)
+- [🧩 **Command Example**](#-command-example)
+
 
 ## 📝 **Note**
 - ElianaBot is a free, open-source project built to enhance the Discord experience for communities worldwide. Our goal is to provide a versatile, customizable bot that meets the diverse needs of server owners and their members.
@@ -75,10 +76,10 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
 <img src="https://camo.githubusercontent.com/de407bccdb7775cee5f39b7f2d523ce3aad69557a14dfa01ffec2c55c1facd0e/68747470733a2f2f692e6962622e636f2e636f6d2f505468353578322f747275652e706e67">
 <h3>Make The Both Rules Ttrue And Publish </h3>
 	<pre><code>{
-  "rules": {
-    ".read": true,
-    ".write": true
-  }
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
 }	</code></pre>
 
 <img src="https://i.ibb.co.com/svz3nmH/dburl.png">
@@ -96,24 +97,24 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
 
 <img src="https://i.ibb.co.com/h7mpp9k/Screenshot-2024-10-03-080633.pngh7mpp9k/Screenshot-2024-10-03-080633.png">
 <h3>And You Will Get A Bot Token Copy And Paste It On config.json File And Then Turn On 3 Switch Form Privileged Gateway Intents
- Section</h3>
+ Section</h3>
 
 <h4>Full config.json</h4>
 <pre><code>{
-  "token": "ADD_BOT_TOKEN",
-  "prefix": "!",
-  "firebase": {
-    "apiKey": "ADD_FIREBASE_API_KEY",
-    "authDomain": "ADD_FIREBASE_AUTH_DOMAIN",
-    "databaseURL": "ADD_FIREBASE_DV_URL",
-    "projectId": "ADD_FIREBASE_PROJECT_ID"
-  },
-  "admins": [
-    "ADMIN_UID"
-  ],
-  "owners": [
-    "OWNER_UID"
-  ]
+  "token": "ADD_BOT_TOKEN",
+  "prefix": "!",
+  "firebase": {
+    "apiKey": "ADD_FIREBASE_API_KEY",
+    "authDomain": "ADD_FIREBASE_AUTH_DOMAIN",
+    "databaseURL": "ADD_FIREBASE_DV_URL",
+    "projectId": "ADD_FIREBASE_PROJECT_ID"
+  },
+  "admins": [
+    "ADMIN_UID"
+  ],
+  "owners": [
+    "OWNER_UID"
+  ]
 }</code></pre>
 
 ## 🖥️ **Dashboard**
@@ -122,4 +123,15 @@ Go to <a href="https://www.w3schools.com">Firebase</a>
 </p>
 
 
-
+## 🔥 **Command-Example**
+- <h2>Here's Some Command Example</h2>
+<p align="center">
+<pre><code>module.exports = {
+  name: 'ping',
+  description: 'Replies with Pong!',
+  execute(message) {
+    message.reply('Pong!');
+  },
+};</code></pre>
+<img src="![image](https://github.com/user-attachments/assets/8327bc13-1f79-49f7-80b7-c1e37e75c51d)
+">
