@@ -30,7 +30,7 @@
 - Knowledge of **programming**, javascript, nodejs, firebase
 
 ## 🔥 **Tutorial**
--<a href="https://youtu.be/AZ93OKlMUQQ?si=IO-jDs_fxgJooU_T">Firebase</a>
+-<a href="https://youtu.be/AZ93OKlMUQQ?si=IO-jDs_fxgJooU_T">Watch video</a>
 
 
 ## 🔥 **Tutorial-firebase**
