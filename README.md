@@ -30,7 +30,7 @@
 - Knowledge of **programming**, javascript, nodejs, firebase
 
 ## 🔥 **Tutorial**
-- <iframe width="560" height="315" src="https://www.youtube.com/embed/AZ93OKlMUQQ?si=DtpiMhv7QwCmASNS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+-<a href="https://youtu.be/AZ93OKlMUQQ?si=IO-jDs_fxgJooU_T">Firebase</a>
 
 
 ## 🔥 **Tutorial-firebase**
